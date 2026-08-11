@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.pytest_cache/
+*.egg-info/
+.DS_Store
+.ipynb_checkpoints/
+
+# Trained model binary: regenerate locally with `python src/train.py`.
+# Not committed to keep the repo free of binary pickle blobs; the
+# metrics.json report from the same run is kept for reference.
+models/model.joblib
