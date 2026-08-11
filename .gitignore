@@ -12,3 +12,8 @@ venv/
 # Not committed to keep the repo free of binary pickle blobs; the
 # metrics.json report from the same run is kept for reference.
 models/model.joblib
+
+# Raw dataset: regenerate locally with `python data/download_dataset.py`.
+# Not committed so the ~950 KB of dense numeric data is never transcribed
+# through a text-based tool/patch path; see data/download_dataset.py.
+data/Telco-Customer-Churn.csv
